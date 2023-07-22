@@ -10,8 +10,8 @@ public class Main {
         int endMonthMissing =  localDate.lengthOfMonth() - localDate.getDayOfMonth();
         int endYearMissing = localDate.lengthOfYear() - localDate.getDayOfYear();
 
-        System.out.println("There are " + endMonthMissing + " days left at the end of the month.");
-        System.out.println("There are " + endYearMissing + " days left until the end of the year.");
+        System.out.println("Days remaining at the end of the month " + endMonthMissing);
+        System.out.println("days remaining at the end of the year" + endYearMissing);
     }
 }
 
